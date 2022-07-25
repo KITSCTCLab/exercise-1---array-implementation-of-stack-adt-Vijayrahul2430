@@ -12,7 +12,7 @@ class Stack:
 
     def is_full(self):
         # Write code here
-        if len(self.items) == self.size:
+        if len(self.items) == size:
             return True
 
     def push(self, data):
@@ -28,7 +28,7 @@ class Stack:
                 
     def status(self):
         # Write code here
-         for element in self.items:
+         for elements in self.items:
                 print(elements)
 
 # Do not change the following code
